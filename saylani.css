@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+body{
+    width: 1200px;
+    background: #333;
+}
+
 header{
     width: 100%;
 }
@@ -19,7 +24,7 @@ header{
 
 .upparnav{
     width: 85%;
-    height: 20px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +56,6 @@ header{
     width: 100%;
     background: #fff;
     border-bottom: #eee 5px solid;
-    position: fixed;
 }
 
 .lowernav{
@@ -123,7 +127,7 @@ header{
 .floatleft p{
     font-size: 20px;
     margin-right: 3%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .floatleft button{
@@ -149,7 +153,7 @@ header{
 
 #donationbox{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -189,7 +193,7 @@ header{
 
 .lastchild li{
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 20px 10px;
     background-color: #333;
     color: #fff;
     cursor: pointer;
@@ -250,7 +254,8 @@ header{
 
 
 .welfareicon{
-    padding: 20px 60px 60px 60px;
+    position: relative;
+    padding: 30px 40px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -258,12 +263,12 @@ header{
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 7rem;
-    margin-left: 4.3rem;
+    margin-left: 10px;
 }
 
 .medicalicon{
-    padding: 20px 60px 60px 60px;
+    position: relative;
+    padding: 30px 40px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -271,13 +276,12 @@ header{
 .medicaltext{
     font-size: large;
     font-weight: bold;
-    position: absolute;
-    margin-top: 7rem;
-    margin-left: 18rem;
+    position: absolute; 
 }
 
 .OnlineSadqahicon{
-    padding: 20px 60px 60px 60px;
+    position: relative;
+    padding: 30px 50px 30px 50px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -286,12 +290,11 @@ header{
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 7rem;
-    margin-left: 29.3rem;
+    margin-left: -30px;
 }
 
 .RoPlanticon{
-    padding: 20px 60px 60px 60px;
+    padding: 30px 40px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -300,12 +303,11 @@ header{
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 7rem;
-    margin-left: 44rem;
+    margin-left: 5px;
 }
 
 .Educationicon{
-    padding: 20px 60px 60px 60px;
+    padding: 30px 40px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -314,12 +316,11 @@ header{
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 7rem;
-    margin-left: 58rem;
+    margin-top: 10px;
 }
 
 .Foodicon{
-    padding: 20px 60px 60px 60px;
+    padding: 30px 40px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -328,8 +329,8 @@ header{
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 7rem;
-    margin-left: 73.5rem;
+    margin-left: 20px;
+    margin-top: 7px;
 }
 
     /* section4 here end */
@@ -352,17 +353,17 @@ header{
 }
 
 .fooddonatetext{
-    width: 400px;
+    width: 290px;
     color: #fff;
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 12rem;
-    margin-left:1rem;
+    margin-top: 8rem;
+    margin-left:10px;
 }
 
 .fooddonatebutton{
-    width: 25%;
+    width: 19%;
     padding: 10px 0;
     font-weight: bold;
     color: #fff;
@@ -370,8 +371,8 @@ header{
     border-radius: 10px;
     border: #8dc63f;
     position: absolute;
-    margin-top: 15rem;
-    margin-left: 10px;
+    margin-top: 10.8rem;
+    margin-left: 8px;
 }
 
 .iticon{
@@ -379,17 +380,17 @@ header{
 }
 
 .ittext{
-    width: 400px;
+    width: 290px;
     color: #fff;
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 13.3rem;
-    margin-left:28.7rem;
+    margin-top: 9.5rem;
+    margin-left:23rem;
 }
 
 .itbutton{
-    width: 25%;
+    width:19%;
     padding: 10px 0;
     font-weight: bold;
     color: #fff;
@@ -397,8 +398,8 @@ header{
     border-radius: 10px;
     border: #8dc63f;
     position: absolute;
-    margin-top: 15rem;
-    margin-left: 30%;
+    margin-top: 10.8rem;
+    margin-left: 24%;
 }
 
 .wintericon{
@@ -406,17 +407,17 @@ header{
 }
 
 .wintertext{
-    width: 400px;
+    width: 290px;
     color: #fff;
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 13.3rem;
-    margin-left:56.5rem;
+    margin-top: 9.5rem;
+    margin-left:45.5rem;
 }
 
 .winterbutton{
-    width: 25%;
+    width: 19%;
     padding: 10px 0;
     font-weight: bold;
     color: #fff;
@@ -424,8 +425,8 @@ header{
     border-radius: 10px;
     border: #8dc63f;
     position: absolute;
-    margin-top: 15rem;
-    margin-left: 59.3%;
+    margin-top: 10.8rem;
+    margin-left: 47.8%;
 }
 
     /* section5 here end */
@@ -454,8 +455,8 @@ header{
 }
 
 .s6floatleft div{
-    width: 21%;
-    font-size: 32px;
+    width: 250px;
+    font-size: 25px;
     font-weight: bold;
     border-top-left-radius: 50px;
     background: #8dc63f;
@@ -568,8 +569,10 @@ header{
 
 #s7img{
     width: 100%;
-    background: #1890ff;
+    height: 400px;
+    background: #0d6db7;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .section7mainbox div{
@@ -577,28 +580,202 @@ header{
 }
 
 .s7food{
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 .s7food img{
-    padding: 20px;
+    width: 100%;
+    padding: 30px;
     background-color: #fff;
     border-radius: 50px;
 }
 
+.s7food h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 8px;
+}
+
+.s7food p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.s7food span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 42px;
+}
+
 .s7familyadoption{
-    margin-left: 30%;
+    margin-left: 22%;
+}
+
+.s7familyadoption img{
+    width: 130px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7familyadoption h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.s7familyadoption p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.s7familyadoption span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
 }
 
 .s7education{
-    margin-left: 50%;
+    margin-left: 37%;
+}
+
+.s7education img{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7education h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.s7education p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.s7education span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 32px;
 }
 
 .s7medical{
-    margin-left: 70%;
+    margin-left: 52%;
 }
+
+.s7medical img{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.s7medical h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 8px;
+}
+
+.s7medical p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.s7medical span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
 /* section7 here end */
 
+/* section8 here start */
+
+.section8{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section8 p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.section8 h1{
+    font-size: 40px;
+    line-height: 4rem;
+}
+
+.section8box{
+    width: 100%;
+    background-color: #eee;
+    justify-content: center;
+    margin:0 auto;
+    padding: 50px;
+    margin-top: 3rem;
+}
+
+.section8box img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.section8box b{
+    display: block;
+    margin-top: 1rem;
+    font-size: 25px;
+}
+
+.section8box p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.s8btn button{
+    font-size: 40px;
+    border-radius: 10px;
+    border-color: #fff;
+    padding: 0px 20px 5px 20px;
+    margin-top: 1rem;   
+}
+
+#leftbtn{
+    background-color: #fff;
+}
+
+#rightbtn{
+    background-color: #8dc63f;
+    color: #fff;
+}
+
+/* section8 here end */
+
+/* section9 here start */
+
+.section9{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.section9 p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
 
 
@@ -609,3 +786,16 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* section9 here end */
+
+  
