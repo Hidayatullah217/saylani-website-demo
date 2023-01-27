@@ -8,7 +8,6 @@
 
 body{
     width: 1200px;
-    background: #333;
 }
 
 header{
@@ -777,25 +776,113 @@ header{
     margin-bottom: 3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section9 iframe{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
 /* section9 here end */
 
-  
+/* section10 here start */
+
+.section10{
+    width: 100%;
+}
+
+
+.news{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.section10mainbox{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+}
+
+.section10mainbox div{
+    height: 310px;
+    margin-left: 12px;
+    border-radius: 10px; 
+    background-color: #eee;
+}
+
+.section10mainbox div img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section10mainbox div p{
+    width: 100px;
+    font-size: 10px;
+    margin: 10px 0px 10px 10px;
+    padding: 5px ; 
+    background-color: #8dc63f;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section10mainbox div h3{
+    width: 230px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.section10mainbox div button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+}
+
+#emailbg{
+    width: 100%;
+}
+
+#email{
+    width: 85%;
+    height: 150px;
+    background: url(section10/5.png);
+    background-color: #0d6db7;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#email h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+
+#email input{
+    background-color: #0d6db7;
+    color: #fff;
+    padding: 15px 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+#email input::placeholder{
+    color: white;
+    text-align: ;
+}
+
+#email button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+
+/* section10 here end */
