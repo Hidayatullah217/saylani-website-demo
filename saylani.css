@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 1200px;
+    width: 100%;
 }
 
 header{
@@ -142,7 +142,7 @@ header{
 
 .floatright img{
     width: 500px;
-    margin: 2% 14%;
+    margin: 2% 7%;
 }
 
     /* section1 here end */
@@ -875,7 +875,6 @@ header{
 
 #email input::placeholder{
     color: white;
-    text-align: ;
 }
 
 #email button{
