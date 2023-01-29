@@ -87,7 +87,7 @@ header{
     background: #1890ff;
     color: #fff;
     border-radius: 5px ;
-    border-color: #1890ff;
+    border: none;
 }
 
     /* lowernavbar here end */
@@ -97,6 +97,8 @@ header{
 #floatmainbox{
     width: 100%;
     height: 550px;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 70px;
     clear: both;
 }    
@@ -126,7 +128,7 @@ header{
 .floatleft p{
     font-size: 20px;
     margin-right: 3%;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 .floatleft button{
@@ -152,8 +154,10 @@ header{
 
 #donationbox{
     width: 100%;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .donatesection{
@@ -187,12 +191,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 50px;
 }
 
 .lastchild li{
     border-radius: 10px;
-    padding: 20px 10px;
+    padding: 20px 20px;
     background-color: #333;
     color: #fff;
     cursor: pointer;
@@ -207,9 +211,9 @@ header{
 .lastchild button{  
     padding: 20px 30px;
     border-radius: 10px;
-    border-color: #8dc63f;
     background:  #8dc63f;
     color: #fff;
+    border: none;
 }
 
     /* section2 here end */
@@ -248,13 +252,14 @@ header{
     width: 85%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
 .welfareicon{
     position: relative;
-    padding: 30px 40px;
+    padding: 30px 50px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -267,7 +272,7 @@ header{
 
 .medicalicon{
     position: relative;
-    padding: 30px 40px;
+    padding: 30px 50px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -280,7 +285,7 @@ header{
 
 .OnlineSadqahicon{
     position: relative;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 60px 30px 60px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -293,7 +298,7 @@ header{
 }
 
 .RoPlanticon{
-    padding: 30px 40px;
+    padding: 30px 60px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -306,7 +311,7 @@ header{
 }
 
 .Educationicon{
-    padding: 30px 40px;
+    padding: 30px 50px;
     background: rgba(182,239,73,.2);
     border-radius: 10px;
 }
@@ -343,6 +348,7 @@ header{
 #section5mainbox{
     width: 85%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -352,17 +358,17 @@ header{
 }
 
 .fooddonatetext{
-    width: 290px;
+    width: 390px;
     color: #fff;
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 8rem;
-    margin-left:10px;
+    margin-top: 12.5rem;
+    margin-left:15px;
 }
 
 .fooddonatebutton{
-    width: 19%;
+    width: 380px;
     padding: 10px 0;
     font-weight: bold;
     color: #fff;
@@ -370,8 +376,8 @@ header{
     border-radius: 10px;
     border: #8dc63f;
     position: absolute;
-    margin-top: 10.8rem;
-    margin-left: 8px;
+    margin-top: 15rem;
+    margin-left: 10px;
 }
 
 .iticon{
@@ -379,17 +385,17 @@ header{
 }
 
 .ittext{
-    width: 290px;
+    width: 390px;
     color: #fff;
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 9.5rem;
-    margin-left:23rem;
+    margin-top: 13.5rem;
+    margin-left: 30.2%;
 }
 
 .itbutton{
-    width:19%;
+    width:380px;
     padding: 10px 0;
     font-weight: bold;
     color: #fff;
@@ -397,8 +403,8 @@ header{
     border-radius: 10px;
     border: #8dc63f;
     position: absolute;
-    margin-top: 10.8rem;
-    margin-left: 24%;
+    margin-top: 15rem;
+    margin-left: 30%;
 }
 
 .wintericon{
@@ -406,17 +412,17 @@ header{
 }
 
 .wintertext{
-    width: 290px;
+    width: 390px;
     color: #fff;
     font-size: large;
     font-weight: bold;
     position: absolute;
-    margin-top: 9.5rem;
-    margin-left:45.5rem;
+    margin-top: 13.5rem;
+    margin-left: 59.5%;
 }
 
 .winterbutton{
-    width: 19%;
+    width: 380px;
     padding: 10px 0;
     font-weight: bold;
     color: #fff;
@@ -424,14 +430,16 @@ header{
     border-radius: 10px;
     border: #8dc63f;
     position: absolute;
-    margin-top: 10.8rem;
-    margin-left: 47.8%;
+    margin-top: 15rem;
+    margin-left: 59.3%;
 }
 
-    /* section5 here end */
-    
-    /* section6 here start */
-    /* floatleft start */
+/* section5 here end */
+
+/* section6 here start */
+
+/* floatleft start */
+
 .section6{
     width: 100%;
     position: relative;
@@ -440,6 +448,8 @@ header{
 #section6box{
     width: 85%;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 70px;
     clear: both;
@@ -562,6 +572,7 @@ header{
 .section7mainbox{
     width: 85%;
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     align-items: center;
 }
@@ -579,7 +590,7 @@ header{
 }
 
 .s7food{
-    margin-left: 7%;
+    margin-left: 12%;
 }
 
 .s7food img{
@@ -609,7 +620,7 @@ header{
 }
 
 .s7familyadoption{
-    margin-left: 22%;
+    margin-left: 30%;
 }
 
 .s7familyadoption img{
@@ -639,7 +650,7 @@ header{
 }
 
 .s7education{
-    margin-left: 37%;
+    margin-left: 50%;
 }
 
 .s7education img{
@@ -669,7 +680,7 @@ header{
 }
 
 .s7medical{
-    margin-left: 52%;
+    margin-left: 68%;
 }
 
 .s7medical img{
@@ -801,6 +812,7 @@ header{
     width: 85%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0 auto; 
 }
 
